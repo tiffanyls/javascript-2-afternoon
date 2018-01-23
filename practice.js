@@ -54,7 +54,9 @@ favoriteThings.brand = "Jeep";
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
+
 
 
 
@@ -68,7 +70,13 @@ favoriteThings.brand = "Jeep";
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-//Code here
+let backPack = {
+
+}
+let item = "firstPocket";
+backPack.item ;
+backPack.firstPocket = "chapstick";
+backPack.color = "black";
 
 
 
@@ -76,7 +84,7 @@ favoriteThings.brand = "Jeep";
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack);
 
 
 
@@ -86,7 +94,8 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
+console.log(backPack);
+
 
 
 
@@ -109,7 +118,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
@@ -121,7 +131,9 @@ var user2 = {
   Create an empty object called methodCollection.
 */
 
-//Code Here
+let methodCollection = {
+
+}
 
 
 
@@ -130,7 +142,12 @@ var user2 = {
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
 */
 
-//Code Here
+methodCollection.alertHello = function () {
+  alert("hello");
+};
+methodCollection.logHello = function () {
+  console.log("hello");
+}
 
 
 
@@ -138,8 +155,8 @@ var user2 = {
   Now call your alertHello and logHello methods.
 */
 
-//Code Here
-
+alertHello();
+logHello();
 
 
 ////////// PROBLEM 6 //////////
